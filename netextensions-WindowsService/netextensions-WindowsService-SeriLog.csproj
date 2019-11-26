@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>netextensions.WindowsService</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>netextensions-WindowsService</Title>
+    <Description>WindowsService for .net core</Description>
+    <PackageProjectUrl>https://netextensions.io/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/netextensions/netextensions-WindowsService</RepositoryUrl>
+    <PackageTags>.net core, windows service</PackageTags>
+    <PackageId>netextensions-WindowsService-Serilog</PackageId>
+    <PackageVersion>1.0.0.1</PackageVersion>
+    <PackageLicenseUrl>https://en.wikipedia.org/wiki/MIT_License</PackageLicenseUrl>
+    <Version>1.0.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LanguageExt.Core" Version="3.3.40" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.WindowsServices" Version="3.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.2.0" />
+  </ItemGroup>
+
+</Project>
